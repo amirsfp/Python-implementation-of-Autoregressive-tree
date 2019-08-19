@@ -1,3 +1,15 @@
+"""
+Python implementation of
+
+@inproceedings{meek2002autoregressive,
+  title={Autoregressive tree models for time-series analysis},
+  author={Meek, Christopher and Chickering, David Maxwell and Heckerman, David},
+  booktitle={Proceedings of the 2002 SIAM International Conference on Data Mining},
+  pages={229--244},
+  year={2002},
+  organization={SIAM}
+}
+"""
 import numpy as np
 from numpy.linalg import det, inv
 from scipy.special import gamma
